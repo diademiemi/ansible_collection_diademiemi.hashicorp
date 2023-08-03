@@ -1,0 +1,4 @@
+release_summary: Add Vagrant and Terraform role
+major_changes:
+  - Add Vagrant role
+  - Add Terraform role

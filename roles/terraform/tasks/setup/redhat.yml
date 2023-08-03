@@ -1,0 +1,19 @@
+---
+- name: Add Hashicorp repository
+  become: true
+  ansible.builtin.yum_repository:
+    name: hashicorp
+    description: Hashicorp repository
+    baseurl: "{{ _terraform_baseurl }}"
+    gpgcheck: true
+    gpgkey: https://rpm.releases.hashicorp.com/gpg
+    enabled: true
+
+- name: Install Terraform
+  become: true
+  ansible.builtin.yum:
+    name:
+      - terraform
+    state: present
+
+...

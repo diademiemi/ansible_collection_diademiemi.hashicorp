@@ -1,0 +1,7 @@
+---
+- name: Failover | Install vagrant
+  ansible.builtin.package:
+    name: vagrant
+    state: present
+
+...

@@ -1,0 +1,19 @@
+---
+- name: List installed Vagrant plugins
+  ansible.builtin.command: vagrant plugin list
+  args:
+    chdir: /tmp
+  register: vagrant_plugins_list
+  changed_when: false
+
+- name: Install Libvirt plugins
+  become: true
+  become_user: "{{ vagrant_plugin_user }}"
+  ansible.builtin.command: vagrant plugin install "{{ item }}"
+  args:
+    chdir: /tmp
+  loop: "{{ vagrant_plugins }}"
+  when: vagrant_plugins_list.stdout.find(item) == -1
+  changed_when: true
+
+...

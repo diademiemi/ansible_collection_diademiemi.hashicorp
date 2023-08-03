@@ -1,0 +1,7 @@
+---
+- name: Failover | Install Terraform
+  ansible.builtin.package:
+    name: terraform
+    state: present
+
+...

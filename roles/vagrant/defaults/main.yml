@@ -1,0 +1,6 @@
+---
+vagrant_plugin_user: "{{ ansible_user_id }}"
+vagrant_plugins: []
+  # - "vagrant-hosts"
+
+...

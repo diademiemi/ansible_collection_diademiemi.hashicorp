@@ -1,0 +1,4 @@
+---
+_vagrant_baseurl: https://rpm.releases.hashicorp.com/fedora/$releasever
+
+...

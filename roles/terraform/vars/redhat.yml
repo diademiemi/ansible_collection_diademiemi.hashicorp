@@ -1,0 +1,4 @@
+---
+_terraform_baseurl: https://rpm.releases.hashicorp.com/RHEL/$releasever
+
+...

@@ -1,0 +1,8 @@
+---
+- name: Install Terraform
+  become: true
+  community.general.zypper:
+    name: terraform
+    state: present
+
+...
