@@ -1,8 +1,6 @@
 Ansible Role Terraform
 =========
 
-[![Molecule Test](https://github.com/diademiemi/ansible_role_terraform/actions/workflows/molecule.yml/badge.svg)](https://github.com/diademiemi/ansible_role_terraform/actions/workflows/molecule.yml)
-
 This is an Ansible role to install Terraform.
 
 Requirements
