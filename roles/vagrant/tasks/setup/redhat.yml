@@ -19,7 +19,6 @@
   become: true
   ansible.builtin.yum:
     name:
-      - "@virtualization"
       - vagrant
       - guestfs-tools
       - ruby-libs
