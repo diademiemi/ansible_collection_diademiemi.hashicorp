@@ -1,0 +1,11 @@
+ancestor: null
+releases:
+  1.0.0:
+    changes:
+      major_changes:
+      - Add Terraform role
+      - Add Vagrant role
+      release_summary: Add Vagrant and Terraform role
+    fragments:
+    - major.yml
+    release_date: '2023-08-03'
