@@ -1,4 +1,4 @@
 ---
-_vagrant_baseurl: https://rpm.releases.hashicorp.com/RHEL/$releasever
+_vagrant_baseurl: https://rpm.releases.hashicorp.com/RHEL/$releasever/$basearch/stable
 
 ...

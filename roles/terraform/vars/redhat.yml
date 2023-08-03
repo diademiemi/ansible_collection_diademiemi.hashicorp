@@ -1,4 +1,4 @@
 ---
-_terraform_baseurl: https://rpm.releases.hashicorp.com/RHEL/$releasever
+_terraform_baseurl: https://rpm.releases.hashicorp.com/RHEL/$releasever/$basearch/stable
 
 ...
