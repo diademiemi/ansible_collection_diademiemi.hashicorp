@@ -1,5 +1,6 @@
 Ansible Role Terraform
 =========
+[![Molecule test](https://github.com/diademiemi/ansible_collection_diademiemi.hashicorp/actions/workflows/ansible-role-terraform.yml/badge.svg)](https://github.com/diademiemi/ansible_collection_diademiemi.hashicorp/actions/workflows/ansible-role-terraform.yml)
 
 This is an Ansible role to install Terraform.
 

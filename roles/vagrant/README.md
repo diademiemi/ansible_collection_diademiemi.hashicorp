@@ -1,5 +1,6 @@
 Ansible Role Vagrant
 =========
+[![Molecule test](https://github.com/diademiemi/ansible_collection_diademiemi.hashicorp/actions/workflows/ansible-role-vagrant.yml/badge.svg)](https://github.com/diademiemi/ansible_collection_diademiemi.hashicorp/actions/workflows/ansible-role-vagrant.yml)
 
 This is an Ansible role to install Vagrant and Vagrant plugins.
 
