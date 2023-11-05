@@ -9,7 +9,7 @@ name: Molecule Tests vagrant
     branches:
       - main
     paths:
-      - "roles/vagrant"
+      - "roles/vagrant/**"
   workflow_dispatch:
 
 jobs:

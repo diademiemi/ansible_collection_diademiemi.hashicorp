@@ -9,7 +9,7 @@ name: Molecule Tests terraform
     branches:
       - main
     paths:
-      - "roles/terraform"
+      - "roles/terraform/**"
   workflow_dispatch:
 
 jobs:
